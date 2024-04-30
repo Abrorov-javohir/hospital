@@ -308,7 +308,7 @@ class MyApp extends StatelessWidget {
                                 ),
                                 SizedBox(height: 8),
                                 Text(
-                                  'Scientists around the world are racing to study the novel coronavirus and find ways to combat the COVID-19 pandemic. Here are some of the latest findings...',
+                                  'Scientists around the world are racing to study the novel coronavirus and find ways to combat the virus. Here are some of the latest findings...',
                                   style: TextStyle(
                                     color: Colors.grey[600],
                                   ),
