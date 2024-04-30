@@ -197,11 +197,6 @@ class MyApp extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Image.network(
-                          'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIz',
-                          width: 100,
-                          height: 100,
-                        ),
                       ],
                     ),
                     const SizedBox(height: 10),
@@ -218,13 +213,7 @@ class MyApp extends StatelessWidget {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text(
-                                      'For Trial Use',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    SizedBox(height: 8),
+                                    SizedBox(height: 10),
                                     Text(
                                       'A randomized, placebo-controlled trial of convalescent plasma for treatment of COVID-19-related respiratory distress syndrome in moderate to severe cases',
                                       style: TextStyle(
@@ -246,14 +235,14 @@ class MyApp extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'For Trial Use',
+                                      'FDA drug',
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                     SizedBox(height: 8),
                                     Text(
-                                      'A randomized, placebo-controlled trial of convalescent plasma for treatment of COVID-19-related respiratory distress syndrome in moderate to severe cases',
+                                      'The doctor can give good tablet for our health',
                                       style: TextStyle(
                                         color: Colors.grey[600],
                                       ),
@@ -273,14 +262,14 @@ class MyApp extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'For Trial Use',
+                                      'Research',
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                     SizedBox(height: 8),
                                     Text(
-                                      '',
+                                      'All people can research all world',
                                       style: TextStyle(
                                         color: Colors.grey[600],
                                       ),
@@ -298,7 +287,7 @@ class MyApp extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'COVID-19 Research News',
+                          'News',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
@@ -312,7 +301,7 @@ class MyApp extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Understanding the Coronavirus',
+                                  'Understanding the virus',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                   ),
