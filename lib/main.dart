@@ -341,7 +341,6 @@ class SecondScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            // Qaytish tugmasi bosilganda birinchi oynaga qaytish
             Navigator.pop(context);
           },
           child: Text('Go back!'),
