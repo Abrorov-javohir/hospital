@@ -308,7 +308,7 @@ class MyApp extends StatelessWidget {
                                 ),
                                 SizedBox(height: 8),
                                 Text(
-                                  'Scientists around the world are racing to study the novel coronavirus and find ways to combat the virus. Here are some of the latest findings...',
+                                  'Scientists around the world are racing to study the novel such as coronavirus and find ways to combat the virus. Here are some of the latest findings...',
                                   style: TextStyle(
                                     color: Colors.grey[600],
                                   ),
@@ -318,29 +318,6 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 10),
-                        Card(
-                          child: Padding(
-                            padding: const EdgeInsets.all(16.0),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Vaccines and Immunization Efforts',
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                SizedBox(height: 8),
-                                Text(
-                                  '',
-                                  style: TextStyle(
-                                    color: Colors.grey[600],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
                       ],
                     ),
                   ],
